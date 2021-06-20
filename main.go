@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	ok, err := say("")
+	ok, err := say("Hello world")
 	if err != nil {
 		panic(err.Error())
 	}
